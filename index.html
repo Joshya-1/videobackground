@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main">
+        <video autoplay loop plays-inline class="background-clip">
+            <!-- <source src="https://www.shutterstock.com/shutterstock/videos/1094392679/preview/stock-footage-cyber-security-information-protection-illustration-abstract-digital-lock-protecting-network-data.webm" type="video/mp4"> -->
+            <source src="https://www.shutterstock.com/shutterstock/videos/1102071015/preview/stock-footage--d-lock-on-screen-with-binary-code-background.webm">
+        </video>
+        <div class="login">
+            <div class="wrapper">
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" name="Username" id="Username" required><i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="password" name="password" id="password" minlength="8" required><i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="confirm password" name="confirmPassword" id="confirmPassword" minlength="8"  required>
+                    </div>
+                    <div id="message"></div>
+                    
+                    <button type="submit"  class="btn" onclick="checkpassword()">Login</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js">
+    </script>
+   
+</body>
+</html>
